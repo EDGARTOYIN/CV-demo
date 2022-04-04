@@ -1,0 +1,107 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: rgba(32,31,35,255);
+    font-family:  Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* *Contenedor main*/
+.cv-Container{
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 450px;
+    height: 100%;
+}
+
+/**Cabezero*/
+header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height:30%;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.image{
+
+
+   margin-top: 17px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid ;
+    border-color: #fdd18d;
+ 
+}  
+
+/** mi nombre*/
+div.center{
+
+
+    margin-right: 29px;
+
+}
+
+.thicBorder{
+
+    width: fit-content;
+    border-bottom: 3px solid #525252;
+}
+
+p.even{
+    margin-top:-11px;            
+}
+
+section{
+    margin: 20px;
+    }
+
+
+/**Contact info y habilidades*/
+
+.centrarItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.titleSect{
+
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #81e6d9;
+    color: #23303a;
+    height: 25%;
+    width: 20%;
+    border-radius: 2px;
+    font-size: small;
+
+}
+
+h4{
+    background-color: #23303a;
+    height: 45%;
+    width: 35%;
+    border-radius:3px;
+}
+
+a{
+    text-decoration: none;
+    color: #f05fb8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
